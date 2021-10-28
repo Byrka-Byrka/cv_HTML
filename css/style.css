@@ -44,6 +44,10 @@
   max-width: 250px;
 }
 
+.header-desc {
+  text-align: center;
+}
+
 .main {
   width: 100%;
   display: flex;
@@ -174,6 +178,20 @@
 .fa-github:hover {
   transition: 3s;
   transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 850px) {
+  .section__header {
+    font-size: 12px;
+  }
+
+  .main__contacts {
+    min-width: 250px;
+    height: 110px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
